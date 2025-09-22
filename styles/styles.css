@@ -1,9 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --primary-color: darkblue;
     --border-color: 1px solid rgb(0 0 0 /20%);
 }
 
+/* Class Selector */
 
+.box {
+    border: var(--border-color);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.indent {
+    padding-left: 2rem;
+}
 
 nav {
     background-color: var(--primary-color);
@@ -21,15 +45,17 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1px 1px;
 }
 
 p {
-    padding: 0px;
+    padding: 10px;
 }
 
 main {
@@ -37,18 +63,20 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    border: var(--border-color);
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;;
+    top: 20px;
+    left: 90px;
 }
 
 footer {
