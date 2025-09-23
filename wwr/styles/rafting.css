@@ -1,0 +1,103 @@
+:root {
+  --color-primary: #1E4E70;   /* Dark Blue - strong, professional */
+  --color-secondary: #8B5E3C; /* Brown/Tan - earthy, warm */
+  --color-accent: #3BAFDA;    /* Light Blue - fresh, energetic */
+  --color-light: #FFFFFF;     /* White - text & backgrounds */
+  --color-dark: #2B2B2B;      /* Neutral dark for body text */
+  --heading-font: 'Trebuchet MS', sans-serif;
+  --body-font: 'Arial', sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--color-dark);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--color-primary);
+}
+
+nav, p, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+section {
+  margin: 0;       
+  padding: 16px 0 24px;  
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;    
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: 8px;
+    margin: 8px;
+    padding: 12px;
+    opacity: 0.7;
+
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    color: var(--color-light);
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--color-dark);
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: 8px;
+    width: 100%;
+
+}
+
+article {
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    margin: 16px;
+    width: 125px;
+    border: 2px solid var(--color-light);
+    box-shadow: 2px 2px 4px var(--color-dark);
+}
