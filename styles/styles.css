@@ -30,18 +30,25 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
     background-color: var(--primary-color);
-    padding: 10px;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.5rem;
     display: block;
-    padding: 20px;
 }
 
 h1 {
     color: var(--primary-color);
+    border-bottom: var(--border-color);
 }
 
 main img {
@@ -51,7 +58,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin: 0 0 1px 1px;
+    margin: 8px 0 1px 1px;
 }
 
 p {
@@ -60,12 +67,16 @@ p {
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -84,3 +95,18 @@ footer {
     border-top: var(--border-color);
     text-align: center;
 }
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+      display: grid;
+      align-items: center;
+    }
+    
+
+
+
+
