@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background: #eeeeee;
+}
+
+h1 {
+    text-align: left;
+    margin: 0.5rem;
+    color: navy;
+    font-size: 1.5rem;
+}
+
+
+form {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+}
+
+code {
+    display: block;
+    background-color: black;
+    color: lime;
+    border-radius: 4px;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+
+
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    cursor: pointer;
+    /* display: block; */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
