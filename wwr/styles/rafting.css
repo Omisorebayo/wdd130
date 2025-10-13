@@ -309,6 +309,10 @@ form {
   gap: 15px;
 }
 
+iframe {
+  border: none;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
