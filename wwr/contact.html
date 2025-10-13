@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Site contact page</title>
+    <meta name="description"
+        content="rafting contact page for Provides contact information and a form to obtain user input including questions and comments.">
+    <meta name="author" content="Omisore Kazeem Bayo">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/white-rafting-logo.jpg" alt="Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <p class="company-name">White Water Rafting Company</p>
+            <p>Toll-Free: (800) 247-2387 (24-RAFTS)</p>
+            <p>Phone: (925) 932-8993</p>
+            <p>Fax: (925) 932-3436</p>
+            <p>Email: rivers@aorafting.com</p>
+        </div>
+        <section class="contact-grid">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21043089.88623165!2d-144.13015438624342!3d41.20317803219088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54960e69473f7afb%3A0x994bc5aa6fb7e41!2sNorthwest%20Rafting%20Company!5e1!3m2!1sen!2sng!4v1760355055864!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <fieldset class="form-group">
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                        newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <p>We Are Here to Serve You</p>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/ali-morshedlou.jpg" alt="Employee 1">
+                    <figcaption>Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/christina-wocintech.jpg" alt="Employee 2">
+                    <figcaption>Secretary</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/linkedin-sales.jpg" alt="Employee 3">
+                    <figcaption>Senior Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 River Rush Adventures. All rights reserved.</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo-icon.svg" alt="facebook Icon" width="40" height="40">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-icon-icon.svg" alt="linkedin Icon" width="40" height="40">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.svg" alt="instagram Icon" width="40" height="40">
+            </a>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
