@@ -419,3 +419,247 @@ main h1 {
 
 
 
+
+
+
+
+/* ===== HOME PAGE STYLES ===== */
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-light);
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  width: 280px;
+  font-size: 1rem;
+}
+
+.newsletter button {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: var(--color-dark);
+}
+
+/* Offerings Section */
+.offerings {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.offerings h2 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.offerings-grid article {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.offerings-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.offerings-grid h3 {
+  margin-top: 1rem;
+  color: var(--color-secondary);
+}
+
+.offerings-grid p {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  padding: 0.8rem 1.6rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-dark);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+  .offerings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ---------- Trips Page ---------- */
+
+.trips-hero {
+  text-align: center;
+  background: #0a3d62;
+  color: #fff;
+  padding: 3em 1em;
+}
+
+.trip-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  padding: 2em;
+}
+
+.trip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 1em;
+  border-radius: 8px;
+  color: #2B2B2B;
+}
+
+.trip img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trip h2 {
+  color: #f7f7f7;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .trip {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trip-table {
+  padding: 2em;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.trip-table th {
+  background: #0a3d62;
+  color: white;
+}
+
+.cta {
+  text-align: center;
+  background: #e9f0ff;
+  padding: 3em 1em;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0a3d62;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
+
+
+
+
+
+
+
